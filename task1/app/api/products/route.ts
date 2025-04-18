@@ -1,11 +1,5 @@
 import data from "@/products.json";
-
-interface ProductData {
-    id: number;
-    name: string;
-    price: number;
-    description: string;
-}
+import ProductData from "@/app/types/ProductData";
 
 export async function GET(request: Request) {
 

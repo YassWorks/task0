@@ -20,7 +20,7 @@
 }
 
 body {
-  background: var(--background);
+  @apply bg-gradient-to-r from-stone-900 to-black;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }

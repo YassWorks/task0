@@ -40,7 +40,7 @@ const Home = () => {
 
     return (
         <>
-            <div className="py-20 px-10 text-center">Product List</div>
+            <div className="py-20 px-10 text-center text-3xl font-bold">Product List</div>
             <div className="flex justify-center items-center mb-5">
                 <input
                     type="text"
